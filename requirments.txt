@@ -1,0 +1,8 @@
+----- Ubuntu / Debian -----
+$ sudo apt-get -y install bluetooth bluez bluez-tools rfkill
+
+----- Fedora -----
+$ sudo dnf -y install bluez bluez-tools
+
+----- Arch Linux / Manjaro -----
+$ sudo pacman -S bluez bluez-utils
