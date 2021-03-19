@@ -30,4 +30,10 @@ $ sudo chmod +x *
 
 $ sudo ./install.sh
 
+```
+
+# :: DDos bluetooth devices ::
+
+```
 $ sudo ./BT-ddos.sh
+```
