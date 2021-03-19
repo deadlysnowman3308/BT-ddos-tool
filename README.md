@@ -26,6 +26,10 @@ $ sudo pacman -S bluez bluez-utils
 # :: Installation ::
 
 ```
+$ git clone https://github.com/deadlysnowman3308/BT-ddos-tool.git
+
+$ cd BT-ddos-tool
+
 $ sudo chmod +x *
 
 $ sudo ./install.sh
