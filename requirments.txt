@@ -2,7 +2,7 @@
 $ sudo apt-get -y install bluetooth bluez bluez-tools rfkill figlet xterm
 
 ----- Fedora -----
-$ sudo dnf -y install bluez bluez-tools
+$ sudo dnf -y install bluez bluez-tools figlet xterm
 
 ----- Arch Linux / Manjaro -----
-$ sudo pacman -S bluez bluez-utils
+$ sudo pacman -S bluez bluez-utils figlet xterm
