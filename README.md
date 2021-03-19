@@ -35,5 +35,5 @@ $ sudo ./install.sh
 # :: DDos bluetooth devices ::
 
 ```
-$ sudo ./BT-ddos.sh
+$ sudo ./BT-ddos-tool.sh
 ```
