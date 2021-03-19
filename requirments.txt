@@ -1,5 +1,5 @@
 ----- Ubuntu / Debian -----
-$ sudo apt-get -y install bluetooth bluez bluez-tools rfkill
+$ sudo apt-get -y install bluetooth bluez bluez-tools rfkill figlet xterm
 
 ----- Fedora -----
 $ sudo dnf -y install bluez bluez-tools
