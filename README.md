@@ -43,5 +43,5 @@ $ sudo ./install.sh
 # :: Usage ::
 
 ```
-$ sudo ./BT-ddos-tool.sh
+$ sudo ./BT-ddos-tool.sh.x
 ```
