@@ -18,12 +18,10 @@ spinner() {
         printf "%s\b" "${sp:i++%n:1}"
     done
 }
-
 clear
 sudo lsmod | grep blue &>/dev/null
 systemctl enable bluetooth.service &>/dev/null
 systemctl start bluetooth.service &>/dev/null
-
 if rfkill unblock bluetooth ;then
 figlet BT-Deauther
 echo  -e "\033[33;5mMade By ANIKET\033[0m"
@@ -34,13 +32,10 @@ sleep 4
 kill "$!" # kill the spinner
 printf '\n'
 clear
-
-
 echo -e "$green Your Bluetooth is Turned On$nc"
 else echo -e "Some Problem With Turning On Bluetooth"
 fi
 echo -e ""
-
 echo -e "$red [*]BLUTOOTH DEVICE(B.D) INFO AND SCANNING$nc"
 printf '\n'
 hciconfig -a
@@ -61,7 +56,6 @@ if [ -z "$interface" ] || [ -z "$bdadd" ] || [ -z "$packet" ] || [ -z "$cycle" ]
    ./$FileName
 else
 echo -e "" 
-
 read -p $'\033[1;33m[*]PRESS ENTER TO START YOUR ATTACK\033[0m'
 fi
 for (( c=$start; c<=$cycle; c++ ))
