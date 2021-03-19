@@ -2,7 +2,10 @@
     
 ### BT-DDoS tool attack, which overflows Bluetooth Enabled devices with random packets which cause the device to crash.
 
-![Logo](https://raw.githubusercontent.com/deadlysnowman3308/BT-ddos-tool/Hackingvila/168283-200.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/deadlysnowman3308/BT-ddos-tool/Hackingvila/168283-200.png" alt="Sublime's custom image"/>
+</p>
+
 
 ## What is BlueSmack(BT-ddos-tool) Attack?
 
