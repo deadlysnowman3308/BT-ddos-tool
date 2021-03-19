@@ -1,6 +1,6 @@
 # BT-ddos-tool
     
-    BT-DDoS tool attack, which overflows Bluetooth Enabled devices with random packets which cause the device to crash.
+### BT-DDoS tool attack, which overflows Bluetooth Enabled devices with random packets which cause the device to crash.
 
 
 ## What is BlueSmack(BT-ddos-tool) Attack?
@@ -36,7 +36,7 @@ $ sudo ./install.sh
 
 ```
 
-# :: DDos bluetooth devices ::
+# :: Usage ::
 
 ```
 $ sudo ./BT-ddos-tool.sh
